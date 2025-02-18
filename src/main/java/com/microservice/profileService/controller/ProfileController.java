@@ -22,6 +22,7 @@ public class ProfileController {
 	public ResponseEntity<ProfileResponse> getProfileById(@PathVariable int id) {
 		// return new ResponseEntity<ProfileResponse>(service.getProfileById(id),
 		// HttpStatus.ACCEPTED);
+		//wdfs
 		return ResponseEntity.status(HttpStatus.OK).body(service.getProfileById(id));
 	}
 }
